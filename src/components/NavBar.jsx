@@ -1,17 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [darkMode , setDarkMode] = useState(false);
+    useEffect(() => {
+        if (darkMode) {
+            document.body.classList.add('dark');
+        } else {
+            document.body.classList.remove('dark');
+        }
+    }, [darkMode]);
 
 return (
     <nav className=" py-4">
-    <div className="container mx-auto flex items-center justify-between px-6">
+    <div className="container mx-auto flex items-center justify-between px-6 ">
         {/* Logo */}
         <div className="flex items-center -space-x-6 ">
         <div
             className="w-8 h-8 bg-[#65DAFF] relative rounded-sm"
             style={{
+                
             clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
             }}
         />
@@ -24,7 +33,7 @@ return (
                 {['Home', 'Careers', 'Blog', 'About Us'].map((item) => (
                     <li
                     key={item}
-                    className="text-sm text-[#252641] transition-colors duration-200 font-[400]"
+                    className="text-sm text-[#252641] transition-colors duration-200 font-[400] dark:text-amber-50 transition-colors duration-200"
                     >
                     {item}
                     </li>
@@ -41,11 +50,18 @@ return (
                 <button className="text-sm px-4 py-2 rounded-full bg-[#F48C06] text-white hover:bg-orange-600 transition font-[500]">
                     Sign Up
                 </button>
+
+                <button
+                    onClick={() => setDarkMode(prev => !prev)}
+                    className="text-sm px-4 py-2 bg-[#F48C06] rounded-full font-[500] text-black dark:text-white hover:bg-orange-600 transition "
+                    >
+                    <i className={darkMode ? 'bx bx-sun' : 'bx bx-moon'}></i>
+                </button>
             </div>
         </div>
 
         {/* Hamburger for small screens */}
-        <button onClick={() => setIsOpen((prev) => !prev)} className="md:hidden ml-2 text-xl z-40">
+        <button onClick={() => setIsOpen((prev) => !prev)} className="md:hidden ml-2 text-xl z-40 dark:text-amber-50">
             <i className={isOpen ? 'bx bx-x' : 'bx bx-menu'} />
         </button>
         
