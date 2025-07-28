@@ -13,7 +13,7 @@ const Navbar = () => {
     }, [darkMode]);
 
 return (
-    <nav className=" py-4">
+    <nav className=" py-4 z-50">
     <div className="container mx-auto flex items-center justify-between px-6 ">
         {/* Logo */}
         <div className="flex items-center -space-x-6 ">
