@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import Company from './components/Company'
 import AllInOneComponent from './components/AllInOneComponent'
 import WhatIsSkillineComponent from './components/WhatIsSkillineComponent'
+import WhatYouCanDoWithSkilline from './components/WhatYouCanDoWithSkilline'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Company/>
       <AllInOneComponent/>
       <WhatIsSkillineComponent/>
+      <WhatYouCanDoWithSkilline/>
     </>
   )
 }
