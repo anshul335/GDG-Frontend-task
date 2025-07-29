@@ -5,6 +5,7 @@ import Company from './components/Company'
 import AllInOneComponent from './components/AllInOneComponent'
 import WhatIsSkillineComponent from './components/WhatIsSkillineComponent'
 import WhatYouCanDoWithSkilline from './components/WhatYouCanDoWithSkilline'
+import Feature from './components/Feature'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <AllInOneComponent/>
       <WhatIsSkillineComponent/>
       <WhatYouCanDoWithSkilline/>
+      <Feature/>
     </>
   )
 }
