@@ -6,6 +6,7 @@ import AllInOneComponent from './components/AllInOneComponent'
 import WhatIsSkillineComponent from './components/WhatIsSkillineComponent'
 import WhatYouCanDoWithSkilline from './components/WhatYouCanDoWithSkilline'
 import Feature from './components/Feature'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <WhatIsSkillineComponent/>
       <WhatYouCanDoWithSkilline/>
       <Feature/>
+      <Footer/>
     </>
   )
 }
