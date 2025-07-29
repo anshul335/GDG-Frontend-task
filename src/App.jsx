@@ -3,6 +3,7 @@ import React from 'react'
 import HeroSection from './components/HeroSection'
 import Company from './components/Company'
 import AllInOneComponent from './components/AllInOneComponent'
+import WhatIsSkillineComponent from './components/WhatIsSkillineComponent'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <HeroSection/>
       <Company/>
       <AllInOneComponent/>
+      <WhatIsSkillineComponent/>
     </>
   )
 }
