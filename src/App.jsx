@@ -7,7 +7,7 @@ import WhatIsSkillineComponent from './components/WhatIsSkillineComponent'
 import WhatYouCanDoWithSkilline from './components/WhatYouCanDoWithSkilline'
 import Feature from './components/Feature'
 import Footer from './components/Footer'
-
+import Integration from './components/Integration'
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
       <WhatIsSkillineComponent/>
       <WhatYouCanDoWithSkilline/>
       <Feature/>
+      <Integration/>
       <Footer/>
     </>
   )
