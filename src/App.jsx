@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import Integration from './components/Integration'
 import Testimonial from './components/Testimonial'
 import NewsAndResourcesComponent from './components/NewsAndResourcesComponent'
+import Discussion from './components/Discussion'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <WhatIsSkillineComponent/>
       <WhatYouCanDoWithSkilline/>
       <Feature/>
+      <Discussion/>
       <Integration/>
       <Testimonial/>
       <NewsAndResourcesComponent/>
