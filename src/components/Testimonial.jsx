@@ -7,7 +7,7 @@ return (
     {/* Left Content */}
         <div className="md:w-1/2 space-y-6">
             <div className="flex items-center space-x-4">
-            <div className="h-px w-8 bg-[#2F327D]" />
+            <div className="h-px w-16 bg-[#2F327D]" />
             <span className="uppercase tracking-wider text-sm text-[#2F327D]">Testimonial</span>
             </div>
             <h2 className="text-5xl font-[550] text-[#2F327D]">What They Say?</h2>

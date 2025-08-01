@@ -9,6 +9,7 @@ import Feature from './components/Feature'
 import Footer from './components/Footer'
 import Integration from './components/Integration'
 import Testimonial from './components/Testimonial'
+import NewsAndResourcesComponent from './components/NewsAndResourcesComponent'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Feature/>
       <Integration/>
       <Testimonial/>
+      <NewsAndResourcesComponent/>
       <Footer/>
     </>
   )
