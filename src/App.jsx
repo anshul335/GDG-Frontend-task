@@ -14,10 +14,11 @@ import Discussion from './components/Discussion'
 import AssignmentAndQuizComponent from './components/AssignmentAndQuizComponent'
 import FeatureUserInterface from './components/FeatureUserInterface'
 import Loader from './components/Loader'
+import ClassMangement from './components/ClassMangement'
+import Tools from './components/Tools'
 
 
 const App = () => {
-
   const [showLoader, setShowLoader] = useState(true);
   useEffect(() => {
         const t = setTimeout(() => setShowLoader(false), 4500);
@@ -35,7 +36,9 @@ const App = () => {
       <WhatYouCanDoWithSkilline/>
       <Feature/>
       <FeatureUserInterface/>
+      <Tools/>
       <AssignmentAndQuizComponent/>
+      <ClassMangement/>
       <Discussion/>
       <Integration/>
       <Testimonial/>
