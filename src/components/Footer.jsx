@@ -3,16 +3,16 @@ import Polygon from '../../src/assets/Polygon.png'
 
 const Footer = () => {
     return (
-        <footer className=" max-w-full mx-auto bg-[#252641]  py-12">
+        <footer className=" max-w-full mx-auto bg-[#252641]  py-12 overflow-x-hidden">
             <div className="max-w-4xl mx-auto px-6 text-center">
                 {/* Logo and tagline */}
-                <div className=" flex flex-col sm:flex-row items-center justify-center gap-10 mb-8">
+                <div className=" flex flex-col justify-between sm:flex-row items-center gap-10 mb-8  px-[22vw]">
                 <div className='relative flex items-center justify-center'>
                     <img src={Polygon} alt="Skilline logo" className=" h-10" />
                     <p className=" absolute left-3 text-lg text-white font-bold">Skilline</p>
                 </div>
-                <p className='text-[#626381] '> |</p>
-                <span className="text-white text-lg">Virtual Class for Zoom</span>
+                <div className='w-[1px] h-10 bg-[#626381]'></div>
+                <span className="text-white text-lg">Virtual Class<br/> for Zoom</span>
                 </div>
 
                 {/* Newsletter subscription */}
@@ -44,7 +44,7 @@ const Footer = () => {
 
                 {/* Copyright */}
                 <p className="mt-4 text-xs text-[#B2B3CF]">
-                    © {new Date().getFullYear()} Class Technologies Inc.
+                    {'\u00a9'} {new Date().getFullYear()} Class Technologies Inc.
                 </p>
             </div>
         </footer>
