@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 // import Navbar from './components/NavBar'
 import HeroSection from './components/HeroSection'
 import Company from './components/Company'
@@ -11,17 +11,31 @@ import Integration from './components/Integration'
 import Testimonial from './components/Testimonial'
 import NewsAndResourcesComponent from './components/NewsAndResourcesComponent'
 import Discussion from './components/Discussion'
+import AssignmentAndQuizComponent from './components/AssignmentAndQuizComponent'
+import FeatureUserInterface from './components/FeatureUserInterface'
+import Loader from './components/Loader'
+
 
 const App = () => {
+
+  const [showLoader, setShowLoader] = useState(true);
+  useEffect(() => {
+        const t = setTimeout(() => setShowLoader(false), 4500);
+        return () => clearTimeout(t);
+  }, []);
+
   return (
     <>
       {/* <Navbar/> */}
+      <Loader show={showLoader} />
       <HeroSection/>
       <Company/>
       <AllInOneComponent/>
       <WhatIsSkillineComponent/>
       <WhatYouCanDoWithSkilline/>
       <Feature/>
+      <FeatureUserInterface/>
+      <AssignmentAndQuizComponent/>
       <Discussion/>
       <Integration/>
       <Testimonial/>
