@@ -13,16 +13,13 @@ const Navbar = () => {
     }, [darkMode]);
 
 return (
-    <nav className=" py-4 z-50">
+    <nav className=" py-10 z-50">
     <div className="container mx-auto flex items-center justify-between px-6 ">
         {/* Logo */}
         <div className="flex items-center -space-x-6 ">
         <div
-            className="w-8 h-8 bg-[#65DAFF] relative rounded-sm"
-            style={{
-                
-            clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
-            }}
+            className="w-8 h-8 bg-[#65DAFF] relative rounded-sm rotate-45" 
+            
         />
         <span className="text-[#113C49] font-[700] z-10 ">Skilline</span>
         </div>

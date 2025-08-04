@@ -26,11 +26,11 @@ const posts = [
 
 const NewsAndResourcesComponent = () => {
 return (
-    <section className="py-16">
+    <section className="py-16 overflow-x-hidden dark:bg-black">
         <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#2F327D]">Latest News and Resources</h2>
-            <p className="mt-2 text-[#696984]">
+            <h2 className="text-3xl font-bold text-[#2F327D] dark:text-[#65DAFF]">Latest News and Resources</h2>
+            <p className="mt-2 text-[#696984] dark:text-[#d6cfcf]">
                 See the developments that have occurred to Skillines in the world
             </p>
             </div>
@@ -40,10 +40,10 @@ return (
                 <div className="relative overflow-hidden rounded-lg flex flex-row items-center justify-center">
                 <img src={Laptop} alt="" className="w-130 h-70 object-cover rounded-lg" />
                 </div>
-                <span className="inline-block bg-[#F4C467] text-xs font-semibold uppercase px-7 py-1.5 rounded-full ml-10 text-[#252641]">NEWS</span>
-                <h3 className="text-2xl font-semibold text-[#252641] ml-10 mr-15">Class adds $30 million to its balance sheet for a Zoom‑friendly edtech solution</h3>
-                <p className="text-[#696984] ml-10 text-xl mr-10">Class, launched less than a year ago by Blackboard co‑founder Michael Chasen, integrates exclusively...</p>
-                <a href="#" className="text-[#696984] font-medium underline ml-10 ">
+                <span className="inline-block bg-[#F4C467] dark:bg-[#eba051] text-xs font-semibold uppercase px-7 py-1.5 rounded-full ml-10 text-[#252641]">NEWS</span>
+                <h3 className="text-2xl font-semibold text-[#252641] dark:text-[#666781] ml-10 mr-15">Class adds $30 million to its balance sheet for a Zoom‑friendly edtech solution</h3>
+                <p className="text-[#696984] dark:text-[#d6cfcf] ml-10 text-xl mr-10">Class, launched less than a year ago by Blackboard co‑founder Michael Chasen, integrates exclusively...</p>
+                <a href="#" className="text-[#696984] dark:text-[#d6cfcf] font-medium underline ml-10 ">
                 Read more
                 </a>
             </div>
@@ -54,13 +54,13 @@ return (
                 <div key={idx} className="flex items-start gap-4">
                     <div className="flex-shrink-0 w-50 h-35 overflow-hidden rounded-md relative">
                         <img src={post.img} alt="" className="w-full h-full object-cover  absolute z-5" />
-                        <span className="inline-block bg-[#F4C467] text-[10px] font-semibold bottom-3 right-3 uppercase px-5 py-1 rounded-full absolute z-10">
+                        <span className="inline-block bg-[#F4C467] dark:bg-[#eba051] text-[10px] font-semibold bottom-3 right-3 uppercase px-5 py-1 rounded-full absolute z-10">
                         {post.badge}
-                    </span>
+                        </span>
                     </div>
                     <div>
-                    <h4 className="mt-1 text-md font-semibold text-[#252641] mr-20">{post.title}</h4>
-                    <h4 className='text-[#696984] mt-2 text-md mr-20'> {post.description}</h4>
+                    <h4 className="mt-1 text-md font-semibold text-[#252641] dark:text-[#666781]  mr-20">{post.title}</h4>
+                    <h4 className='text-[#696984] dark:text-[#d6cfcf] mt-2 text-md mr-20'> {post.description}</h4>
                     </div>
                 </div>
                 ))}

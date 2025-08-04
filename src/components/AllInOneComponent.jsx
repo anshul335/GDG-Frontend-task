@@ -31,12 +31,12 @@ function AllInOneComponent() {
         ];
 
         return (
-        <section className="text-center py-16 px-6 bg-white">
-            <h2 className="text-3xl font-semibold text-gray-800">
-            <span className="text-[#2F327D] font-bold">All-In-One </span>
-            <span className="text-[#F48C06] font-bold">Cloud Software</span>
+        <section className="text-center py-16 px-6 bg-white dark:bg-black overflow-x-hidden">
+            <h2 className="text-3xl font-semibold text-[#696984]">
+            <span className="text-[#2F327D] dark:text-[#65DAFF] font-bold">All-In-One </span>
+            <span className="text-[#F48C06] dark:text-[#eba051] font-bold">Cloud Software</span>
             </h2>
-            <p className="mt-4 text-[#696984] max-w-xl mx-auto">
+            <p className="mt-4 text-[#696984] dark:text-[#d6cfcf] max-w-xl mx-auto">
             Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.
             </p>
 

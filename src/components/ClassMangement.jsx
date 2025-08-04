@@ -7,9 +7,9 @@ import ClassImage5 from '../../src/assets/ClassImage5.png';
 
 const ClassMangement = () => {
   return (
-        <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 gap-10 overflow-x-hidden">
+        <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 gap-10 overflow-x-hidden dark:bg-black">
         {/* Left Text Section */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 dark:z-0">
             <h2 className="text-2xl md:text-3xl font-bold text-[#F48C06]">Class Management</h2>
             <h3 className="text-2xl md:text-3xl font-bold text-[#2F327D] mt-2">Tools for Educators</h3>
             <p className="text-[#696984] mt-4 text-sm md:text-base max-w-[400px]">
@@ -19,11 +19,11 @@ const ClassMangement = () => {
         </div>
 
         {/* Right Gradebook UI */}
-        <div className="relative shadow-xl rounded-2xl w-full md:w-[40vw] h-[60vh] pb-4 bg-white ">
+        <div className="relative shadow-xl rounded-2xl w-full md:w-[40vw] h-[60vh] pb-4 bg-white dark:z-0">
             <div className="absolute -top-6 right-2 h-5 w-5 rounded-full  bg-[#9FD7FF]"></div>
             <div className="absolute -top-1 -right-4 h-3 w-3 rounded-full  bg-[#9FD7FF]"></div>
             <img src={ClassImage5} alt="waves" className='w-20 h-10 absolute bottom-3.5 -left-9'/>
-            <div className="absolute -bottom-3 -left-3 h-35 w-35 rounded-2xl -z-5 bg-[#B2C4F0] "></div>
+            <div className="absolute -bottom-3 -left-3 h-35 w-35 rounded-2xl   bg-[#B2C4F0] dark:hidden "></div>
 
             {/* Gradebook Header */}
             <div className=" bg-[#54AFF0] text-white text-center w-[40vw]  text-lg font-semibold py-2 rounded-t-xl ">GradeBook</div>    
@@ -54,7 +54,7 @@ const ClassMangement = () => {
             {/* Row 4 */}
                 <div className='flex justify-start items-center relative'>
                     <img src={ClassImage4} alt="User4" className='w-10 h-10 rounded-full z-10 absolute left-45'   />
-                    <div className=' w-[40%] h-6 relative bg-[#68F146] flex items-center justify-center z-1'></div>
+                    <div className=' w-[40%] h-6 relative bg-[#68F146] flex items-center justify-center z-1 '></div>
                     <div className='h-3 px-8 rounded-full py-4 w-3 bg-[#D7FFCD] absolute top-2 left-52 flex items-center justify-center text-sm text-[#4E8C3F] font-semibold z-20'>85</div>
 
                 </div>
@@ -67,7 +67,7 @@ const ClassMangement = () => {
             </button>
             </div>
         </div>
-        </div>
+    </div>
   );
 };
 

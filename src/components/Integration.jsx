@@ -34,8 +34,8 @@ const logos = [
 
 const integration = () => {
   return (
-    <div className="py-12 ">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+    <div className="py-12 overflow-x-hidden dark:bg-black ">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ">
         <div className="flex  flex-row flex-wrap justify-center w-100 items-center gap-6">
             {logos.map(({ link, alt ,h,w}) => (
             <img
@@ -48,9 +48,10 @@ const integration = () => {
             ))}
         </div>
         <div className="text-center lg:text-left space-y-4">
-            <p className="uppercase text-md tracking-wider text-[#525596] flex items-center gap-5 "><hr className='w-19'>
-
-            </hr>INTEGRATIONS</p>
+            <p className="uppercase text-md tracking-wider text-[#525596] dark:text-[#65DAFF] flex items-center gap-5 ">
+                <hr className='w-19'></hr>
+                INTEGRATIONS
+            </p>
             <h2 className="text-4xl font-bold text-[#2F327D]">
             200+ educational tools and platform <span className='text-[#F48C06]'>integrations</span>
             </h2>

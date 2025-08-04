@@ -5,7 +5,7 @@ import plane from '../../src/assets/planeImage.png'
 
 const AssignmentAndQuizComponent = () => {
   return (
-    <div className=" items-center max-w-7xl mx-auto px-6 py-16 gap-50 grid grid-cols-1 lg:grid-cols-2 justify-center overflow-x-hidden ">
+    <div className=" items-center max-w-7xl mx-auto px-6 py-16 gap-50 grid grid-cols-1 lg:grid-cols-2 justify-center overflow-x-hidden dark:bg-black ">
         
         {/* Left side: Card content */}
         <div className="relative  ml-30">
@@ -33,10 +33,10 @@ const AssignmentAndQuizComponent = () => {
 
         {/* Right side: Heading and description */}
         <div className="">
-        <h2 className="text-4xl font-bold text-[#2F327D]">
-            Assessments, <span className="text-[#F48C06]">Quizzes</span>, Tests
+        <h2 className="text-4xl font-bold text-[#2F327D] dark:text-[#65DAFF]">
+            Assessments, <span className="text-[#F48C06] dark:text-[#eba051]">Quizzes</span>, Tests
         </h2>
-        <p className="mt-4 text-[#696984]">
+        <p className="mt-4 text-[#696984] dark:text-[#d6cfcf]">
             Easily launch live assignments, quizzes, and tests. Student results are automatically entered in the online gradebook.
         </p>
         </div>
