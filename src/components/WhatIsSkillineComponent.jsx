@@ -8,8 +8,8 @@ const WhatIsSkillineComponent = () => {
   return (
     <div className=" md:pl-30  py-16 md:pr-30 pl:5 pr:5 overflow-x-hidden dark:bg-black">
         {/* heading */}
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-[#2F327D]">
-            What is <span className="text-[#F48C06] ">Skilline?</span>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-[#2F327D]  dark:text-[#65DAFF]">
+            What is <span className="text-[#F48C06] dark:text-[#eba051] ">Skilline?</span>
         </h2>
 
         {/* description */}

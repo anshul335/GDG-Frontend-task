@@ -19,7 +19,8 @@ const Company = () => {
     { id: 6, name: 'Grab', image: Grab }
   ]
   return (
-    <div className="flex w-full justify-center items-center py-8 overflow-x-hidden dark:bg-black">
+    <div className="flex flex-col w-full justify-center items-center py-8 overflow-x-hidden dark:bg-black">
+      <h2 className='text-[#696984] dark:text-[#d6cfcf] text-lg'>Trusted by 5,000+ Companies Worldwide</h2>
       <div className=' whitespace-nowrap overflow-auto no-scrollbar '>
         <div className='whitespace-nowrap inline-block  animate-move  '
         >
