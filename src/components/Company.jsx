@@ -4,7 +4,7 @@ import Amazon from '../../src/assets/Amazon.png'
 import Facebook from '../../src/assets/FaceBook.png'
 import Netflix from '../../src/assets/Netflix.png'
 import Grab from '../../src/assets/Grab.png'
-import AirBnb from '../../src/assets/AirBnb.png'
+import AirBnb from '../../src/assets/Airbnb.png'
 
 const Company = () => {
   const companies = [
