@@ -5,7 +5,7 @@ import plane from '../../src/assets/planeImage.png'
 
 const AssignmentAndQuizComponent = () => {
   return (
-    <div className=" items-center max-w-7xl mx-auto px-6 py-16 gap-50 grid grid-cols-1 lg:grid-cols-2 justify-center overflow-x-hidden dark:bg-black ">
+    <div className=" items-center max-w-full mx-auto px-6 py-16 gap-50 grid grid-cols-1 lg:grid-cols-2 justify-center overflow-x-hidden dark:bg-black ">
         
         {/* Left side: Card content */}
         <div className="relative  ml-30">
@@ -21,18 +21,18 @@ const AssignmentAndQuizComponent = () => {
             </div>
             <h3 className="text-xl font-semibold text-[#55578D]">True or false? This play takes place in Italy</h3>
             <img src={Assignment} alt="question visual" className="w-100 h-48 object-contain rounded-lg absolute" />
-            <div className='absolute bg-white flex flex-row rounded-xl w-50 h-20 -bottom-6 -right-15 shadow-lg'>
-                <div className='w-8 h-8 rounded-full bg-[#D8F9ED]'>
-                    <img src={plane} alt="plane" className="w-full h-full object-contain "/>
+            <div className='absolute bg-white flex flex-row items-center justify-around rounded-xl w-50 h-20 -bottom-6 -right-15 shadow-lg'>
+                <div className='w-8 h-8  rounded-full bg-[#D8F9ED] flex items-center justify-center absolute left-3'>
                 </div>
-                <p className='text-[#41BE90]'>Your answer was sent successfully</p>
-                <div className='w-8 h-8 rounded-full bg-[#D8F9ED]' />
+                <img src={plane} alt="plane" className="w-10 h-10 z-10 "/>
+                <p className='text-[#41BE90] font-semibold max-w-30 z-20'>Your answer was sent successfully</p>
+                <div className='w-6 h-6 rounded-full bg-[#D8F9ED] absolute right-1 bottom-3 ' />
             </div>
         </div>
         </div>
 
         {/* Right side: Heading and description */}
-        <div className="">
+        <div className="max-w-87 flex flex-col mx-auto items-center justify-center ">
         <h2 className="text-4xl font-bold text-[#2F327D] dark:text-[#65DAFF]">
             Assessments, <span className="text-[#F48C06] dark:text-[#eba051]">Quizzes</span>, Tests
         </h2>

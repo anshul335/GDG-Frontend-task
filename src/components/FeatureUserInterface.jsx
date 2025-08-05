@@ -6,13 +6,17 @@ import UserInterfacestudent2 from '../../src/assets/UserInterfacestudent2.png'
 import UserInterfacestudent3 from '../../src/assets/UserInterfacestudent3.png'
 import callSign from '../../src/assets/CallSign.png'
 import Hand from '../../src/assets/Hand.png'
+import UserInterfaceIcon1 from '../../src/assets/UserInterfaceIcon1.png'
+import UserInterfaceIcon2 from '../../src/assets/UserInterfaceIcon2.png'
+import UserInterfaceIcon3 from '../../src/assets/UserInterfaceIcon3.png'
+
 
 
 const FeatureUserInterface = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-20 gap-5 overflow-x-hidden dark:bg-black ">
+    <div className="flex flex-col lg:flex-row items-center justify-between max-w-full mx-auto px-6 py-20 gap-5 overflow-x-hidden dark:bg-black ">
         {/* Left Section - Images */}
-        <div className="relative w-md max-w-xl ml-25 mt-10 dark:z-0 ">
+        <div className="relative w-md max-w-xl mx-auto mt-10 dark:z-0 ">
             
             <div className='w-20 h-20 rounded-full bg-[#33EFA0] flex items-center justify-center absolute left-10 -top-10  '></div>
             <div className='w-4 h-4 rounded-full bg-[#33D9EF] flex items-center justify-center absolute left-30 -top-11 '></div>
@@ -26,7 +30,6 @@ const FeatureUserInterface = () => {
             
                 
             <div className="absolute -top-23 -left-15 w-full h-full -z-10">
-                {/* <img src={DiscussionBackRectangle} alt="Discussion Back Rectangle" className="w-full h-full object-contain" /> */}
             </div>
             <div className='w-md h-full z-20 rounded-t-3xl bg-[#EAEAEA] opacity-[60%] blur-[80] backdrop-blur-md flex items-center '>
                 <div className='rounded-full w-3 h-3 ml-6 bg-[#EE6767]'></div>
@@ -58,13 +61,29 @@ const FeatureUserInterface = () => {
         </div>
     
         {/* Right Section - Text */}
-        <div className="max-w-md">
-            <h2 className="text-3xl font-bold text-[#2F327D] mr-30">
-            A<span className="text-[#F48C06]"> user interface</span> designed for the classroom
+        <div className="max-w-md mx-auto sm:mt-10">
+            <h2 className="text-3xl font-bold text-[#2F327D] dark:text-[#65DAFF] ">
+                A<span className="text-[#F48C06] dark:text-[#eba051]"> user interface</span> designed for the classroom
             </h2>
-            <p className="mt-4 text-[#696984] mr-20">
-            Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.
-            </p>
+            <div className=' flex items-center gap-4'>
+                <img src={UserInterfaceIcon1} alt="Box Icon" className='w-3 h-3 mt-4 bg-[#FBFBFB] ' />
+                <p className="mt-4 text-[#696984] dark:text-[#d6cfcf] ">
+                    Teachers don’t get lost in the grid view and have a dedicated Podium space.
+                </p>
+            </div>
+            <div className=' flex items-center gap-4'>
+                <img src={UserInterfaceIcon2} alt="Box Icon" className='w-3 h-3 mt-4 bg-[#FBFBFB]' />
+                <p className="mt-4 text-[#696984] dark:text-[#d6cfcf] ">
+                TA’s and presenters can be moved to the front of the class.
+
+                </p>
+            </div>
+            <div className=' flex items-center gap-4'>
+                <img src={UserInterfaceIcon3} alt="Box Icon" className='w-3 h-3 mt-4 bg-[#FBFBFB] ' />
+                <p className="mt-4 text-[#696984] dark:text-[#d6cfcf] ">
+                    Teachers can easily see all students and class data at one time.
+                </p>
+            </div>
         </div>
     </div>
     )
