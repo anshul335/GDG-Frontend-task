@@ -16,6 +16,7 @@ import FeatureUserInterface from './components/FeatureUserInterface'
 import Loader from './components/Loader'
 import ClassMangement from './components/ClassMangement'
 import Tools from './components/Tools'
+import SmoothScrollWrapper from './SmoothScrollWrapper'
 
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
     <>
       {/* <Navbar/> */}
       <Loader show={showLoader} />
+      <SmoothScrollWrapper>
       <HeroSection/>
       <Company/>
       <AllInOneComponent/>
@@ -44,6 +46,7 @@ const App = () => {
       <Testimonial/>
       <NewsAndResourcesComponent/>
       <Footer/>
+      </SmoothScrollWrapper>
     </>
   )
 }
