@@ -21,15 +21,26 @@ const Company = () => {
   return (
     <div className="flex w-full justify-center items-center py-8 overflow-x-hidden dark:bg-black">
       <div className=' whitespace-nowrap overflow-auto no-scrollbar '>
-        <div className='whitespace-nowrap inline-block  animate-move '
+        <div className='whitespace-nowrap inline-block  animate-move  '
         >
           {companies.map((company) => (
+            <div className='whitespace-nowrap inline-block '>
             <img src={company.image} alt={company.name} key={company.id} className ="md:w-30 w-20 md:h-20 h-15  mx-[3vw] object-contain inline-block " />
+            </div>
           ))}
         </div>
-        <div className='whitespace-nowrap  animate-move md:mx-0 inline-block'>
+        <div className='whitespace-nowrap  animate-move md:mx-0 inline-block '>
           {companies.map((company) => (
-            <img src={company.image} alt={company.name} key={company.id} className ="md:w-30 md:h-20 w-20 h-15  mx-[3vw] object-contain inline-block " />
+            <div className='whitespace-nowrap inline-block'>
+              <img src={company.image} alt={company.name} key={company.id} className ="md:w-30 md:h-20 w-20 h-15  mx-[3vw] object-contain inline-block " />
+            </div>
+          ))}
+        </div>
+        <div className='whitespace-nowrap  animate-move md:mx-0 inline-block '>
+          {companies.map((company) => (
+            <div className='whitespace-nowrap inline-block'>
+              <img src={company.image} alt={company.name} key={company.id} className ="md:w-30 md:h-20 w-20 h-15  mx-[3vw] object-contain inline-block " />
+            </div>
           ))}
         </div>
         

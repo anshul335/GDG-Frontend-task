@@ -51,7 +51,7 @@ return (
             {/* Grid of Small Posts */}
             <div className="space-y-6">
                 {posts.map((post, idx) => (
-                <div key={idx} className="flex items-start gap-4">
+                <div key={idx} className="flex md:items-start flex-col md:flex-row items-center  gap-4">
                     <div className="flex-shrink-0 w-50 h-35 overflow-hidden rounded-md relative">
                         <img src={post.img} alt="" className="w-full h-full object-cover  absolute z-5" />
                         <span className="inline-block bg-[#F4C467] dark:bg-[#eba051] text-[10px] font-semibold bottom-3 right-3 uppercase px-5 py-1 rounded-full absolute z-10">
@@ -59,8 +59,8 @@ return (
                         </span>
                     </div>
                     <div>
-                    <h4 className="mt-1 text-md font-semibold text-[#252641] dark:text-[#666781]  mr-20">{post.title}</h4>
-                    <h4 className='text-[#696984] dark:text-[#d6cfcf] mt-2 text-md mr-20'> {post.description}</h4>
+                    <h4 className="mt-1 text-md font-semibold text-[#252641] dark:text-[#666781] max-w-80">{post.title}</h4>
+                    <h4 className='text-[#696984] dark:text-[#d6cfcf] mt-2 text-md max-w-80'> {post.description}</h4>
                     </div>
                 </div>
                 ))}

@@ -52,15 +52,15 @@ const integration = () => {
                 <hr className='w-19'></hr>
                 INTEGRATIONS
             </p>
-            <h2 className="text-4xl font-bold text-[#2F327D]">
-            200+ educational tools and platform <span className='text-[#F48C06]'>integrations</span>
+            <h2 className="text-4xl font-bold text-[#2F327D] dark:text-[#65DAFF]">
+            200+ educational tools and platform <span className='text-[#F48C06] dark:text-[#eba051] '>integrations</span>
             </h2>
-            <p className="text-md mr-30 font-[400] text-[#696984]">
+            <p className="text-md max-w-115 font-[400] text-[#696984] dark:text-[#d6cfcf] ">
             Schoology has every tool your classroom needs and comes
             pre‑integrated with more than 200+ tools, student information
             systems (SIS), and education platforms.
             </p>
-            <button className="inline-block px-6 py-3 border border-[#F48C06] rounded-full text-[#F48C06]  ">
+            <button className="inline-block px-6 py-3 border border-[#F48C06] dark:border-[#eba051] rounded-full text-[#F48C06] dark:text-[#eba051] ">
             See All Integrations
             </button>
         </div>
