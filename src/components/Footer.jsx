@@ -3,7 +3,7 @@ import Polygon from '../../src/assets/Polygon.png'
 
 const Footer = () => {
     return (
-        <footer className=" max-w-full mx-auto bg-[#252641]  py-12 overflow-x-hidden">
+        <footer className=" max-w-full mx-auto bg-[#252641] dark:bg-[#070D0D]  py-12 overflow-x-hidden">
             <div className="max-w-4xl mx-auto px-6 text-center">
                 {/* Logo and tagline */}
                 <div className=" flex flex-col justify-between sm:flex-row items-center gap-10 mb-8  px-[22vw]">
@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
 
                 {/* Newsletter subscription */}
-                <h2 className="text-md font-semibold text-[#B2B3CF] mb-2">
+                <h2 className="text-md font-semibold text-[#B2B3CF] dark:text-[#d6cfcf] mb-2">
                     Subscribe to get our Newsletter
                 </h2>
                 <form className="flex flex-col sm:flex-row items-center justify-center gap-2">
@@ -34,7 +34,7 @@ const Footer = () => {
                 </form>
 
                 {/* Footer links */}
-                <div className="mt-8 text-sm text-[#B2B3CF] space-x-2">
+                <div className="mt-8 text-sm text-[#B2B3CF] dark:text-[#d6cfcf] space-x-2">
                 <a href="#careers" className="hover:text-gray-100">Careers</a>
                 <span>|</span>
                 <a href="#privacy" className="hover:text-gray-100">Privacy Policy</a>
@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
 
                 {/* Copyright */}
-                <p className="mt-4 text-xs text-[#B2B3CF]">
+                <p className="mt-4 text-xs text-[#B2B3CF] dark:text-[#d6cfcf]">
                     {'\u00a9'} {new Date().getFullYear()} Class Technologies Inc.
                 </p>
             </div>
