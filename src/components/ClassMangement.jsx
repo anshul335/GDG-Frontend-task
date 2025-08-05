@@ -4,7 +4,7 @@ import ClassImage2 from '../../src/assets/ClassImage2.png';
 import ClassImage3 from '../../src/assets/ClassImage3.png';
 import ClassImage4 from '../../src/assets/ClassImage4.png';
 import ClassImage5 from '../../src/assets/ClassImage5.png';
-import Star from '../../src/assets/star.png';
+import Star from '../../src/assets/Star.png';
 import Book from '../../src/assets/Book.png'
 
 const ClassMangement = () => {
