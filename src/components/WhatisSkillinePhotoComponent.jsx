@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhatisSkillinePhotoComponent = ({ bgImage, title, buttonLabel, button}) => {
   return (
-        <div className={`relative h-50 md:h-64 lg:h-72 w-108 rounded-2xl overflow-hidden group bg-contain bg-no-repeat bg-center 
+        <div className={`relative w-full max-w-xl h-70 mx-auto rounded-2xl overflow-hidden aspect-w-4 aspect-h-3 bg-center bg-cover group
         '
         }`}
         style={{ backgroundImage: `url(${bgImage})` }}
