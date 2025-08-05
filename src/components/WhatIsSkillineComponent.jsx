@@ -21,7 +21,7 @@ const WhatIsSkillineComponent = () => {
         </p>
 
         {/* cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-0.5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20">
         <WhatisSkillinePhotoComponent
             bgImage={teacher}
             title="FOR INSTRUCTORS"

@@ -3,7 +3,7 @@ import SmillingWomen from '../../src/assets/SmillingWomen.png'
 
 const Testimonial = () => {
 return (
-    <section className="py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto overflow-x-hidden dark:bg-black">
+    <section className="py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between max-w-full mx-auto overflow-x-hidden dark:bg-black">
     {/* Left Content */}
         <div className="md:w-1/2 space-y-6">
             <div className="flex items-center space-x-4">
@@ -11,13 +11,13 @@ return (
                     <span className="uppercase tracking-wider text-sm text-[#2F327D] dark:text-[#65DAFF]">Testimonial</span>
                 </div>
                 <h2 className="text-5xl font-[550] text-[#2F327D] dark:text-[#65DAFF]">What They Say?</h2>
-                <p className="text-[#696984] dark:text-[#d6cfcf] text-2xl  mr-30">
+                <p className="text-[#696984] dark:text-[#d6cfcf] text-2xl  max-w-120">
                     Skilline has got more than 100k positive ratings from our users around the world.
                 </p>
-                <p className="text-[#696984] dark:text-[#d6cfcf] text-2xl  mr-30">
+                <p className="text-[#696984] dark:text-[#d6cfcf] text-2xl  max-w-120">
                     Some of the students and teachers were greatly helped by the Skilline.
                 </p>
-                <p className="text-[#696984] dark:text-[#d6cfcf] text-2xl  mr-30">Are you too? Please give your assessment</p>
+                <p className="text-[#696984] dark:text-[#d6cfcf] text-2xl  max-w-120">Are you too? Please give your assessment</p>
 
                 <button className="border border-[#F48C06] dark:border-[#eba051] text-[#F48C06] dark:text-[#eba051] rounded-full px-6 py-3 font-medium hover:bg-[#F48C06] dark:hover:bg-[#eba051] hover:text-white transition">
                 Write your assessment →
