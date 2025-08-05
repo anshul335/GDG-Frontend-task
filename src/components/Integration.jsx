@@ -43,7 +43,7 @@ const integration = () => {
                 src={link}
                 alt={alt}
                 style={{ width: w, height: h }}
-                className="object-contain opacity-100  "
+                className="object-contain opacity-100 hover:scale-90 transition duration-200   "
             />
             ))}
         </div>
@@ -60,7 +60,7 @@ const integration = () => {
             pre‑integrated with more than 200+ tools, student information
             systems (SIS), and education platforms.
             </p>
-            <button className="inline-block px-6 py-3 border border-[#F48C06] dark:border-[#eba051] rounded-full text-[#F48C06] dark:text-[#eba051] ">
+            <button className="inline-block px-6 py-3 border border-[#F48C06] dark:border-[#eba051] rounded-full text-[#F48C06] dark:text-[#eba051] hover:bg-[#F48C06] dark:hover:bg-[#eba051] hover:text-white dark:hover:text-white transition-colors duration-1000 ease-in-out ">
             See All Integrations
             </button>
         </div>

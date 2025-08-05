@@ -14,7 +14,7 @@ const WhatisSkillinePhotoComponent = ({ bgImage, title, buttonLabel, button}) =>
         <h3 className="font-semibold tracking-wide text-lg md:text-xl">
             {title}
         </h3>
-        <button style={{ backgroundColor: button }} className="mt-4 px-5 py-2 rounded-full font-medium   hover:bg-white/30 border border-white/30">
+        <button style={{ backgroundColor: button }} className="mt-4 px-5 py-2 rounded-full font-medium hover:scale-110  hover:bg-white/30 border border-white/30">
             {buttonLabel}
         </button>
         </div>

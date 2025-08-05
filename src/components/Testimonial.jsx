@@ -19,8 +19,8 @@ return (
                 </p>
                 <p className="text-[#696984] dark:text-[#d6cfcf] text-2xl  max-w-120">Are you too? Please give your assessment</p>
 
-                <button className="border border-[#F48C06] dark:border-[#eba051] text-[#F48C06] dark:text-[#eba051] rounded-full px-6 py-3 font-medium hover:bg-[#F48C06] dark:hover:bg-[#eba051] hover:text-white transition">
-                Write your assessment →
+                <button className="border border-[#F48C06] dark:border-[#eba051] text-[#F48C06] dark:text-[#eba051] rounded-full px-6 py-3 font-medium hover:bg-[#F48C06] dark:hover:bg-[#eba051] hover:text-white dark:hover:text-white transition-colors duration-1000 ease-in-out flex items-center justify-center relative ">
+                Write your assessment 
                 </button>
             </div>
 

@@ -30,7 +30,7 @@ return (
                 {['Home', 'Careers', 'Blog', 'About Us'].map((item) => (
                     <li
                     key={item}
-                    className="text-sm text-[#252641] transition-colors duration-200 font-[400] dark:text-amber-50 transition-colors duration-200"
+                    className="text-sm text-[#252641]font-[400] hover:underline dark:text-amber-50 transition-colors duration-200"
                     >
                     {item}
                     </li>
