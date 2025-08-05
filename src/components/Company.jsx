@@ -1,10 +1,10 @@
 import React from 'react'
-import Google from '../../src/assets/CompaniesImage/Google.png'
-import Amazon from '../../src/assets/CompaniesImage/Amazon.png'
-import Facebook from '../../src/assets/CompaniesImage/Facebook.png'
-import Netflix from '../../src/assets/CompaniesImage/Netflix.png'
-import Grab from '../../src/assets/CompaniesImage/Grab.png'
-import AirBnb from '../../src/assets/CompaniesImage/AirBnb.png'
+import Google from '../../src/assets/Google.png'
+import Amazon from '../../src/assets/Amazon.png'
+import Facebook from '../../src/assets/Facebook.png'
+import Netflix from '../../src/assets/Netflix.png'
+import Grab from '../../src/assets/Grab.png'
+import AirBnb from '../../src/assets/AirBnb.png'
 
 const Company = () => {
   const companies = [
