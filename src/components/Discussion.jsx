@@ -7,9 +7,9 @@ import DiscussionBackRectangle from '../../src/assets/DiscussionBackRectangle.pn
 
 const Discussion = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl dark:bg-black mx-auto px-6 py-20 gap-5 overflow-x-hidden ">
+    <div className="flex flex-col lg:flex-row items-center justify-between max-w-full dark:bg-black mx-auto px-6 py-20 gap-5 overflow-x-hidden ">
     {/* Left Section - Images */}
-    <div className="relative w-md max-w-xl ml-25 mt-10 dark:z-0">
+    <div className="relative w-md md:max-w-120 mx-auto   mt-10 dark:z-0">
         <div className='absolute w-50 h-50 bg-[#73BCFF] dark:bg-[#65DAFF] rounded-3xl top-0 -left-19 -z-15 '></div>
         
         <div className='w-20 h-20 rounded-full bg-[#73BCFF] dark:bg-[#65DAFF] flex items-center justify-center absolute right-8 -top-22  -z-10'>

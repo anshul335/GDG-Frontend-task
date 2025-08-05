@@ -4,31 +4,43 @@ import ClassImage2 from '../../src/assets/ClassImage2.png';
 import ClassImage3 from '../../src/assets/ClassImage3.png';
 import ClassImage4 from '../../src/assets/ClassImage4.png';
 import ClassImage5 from '../../src/assets/ClassImage5.png';
+import Star from '../../src/assets/star.png';
+import Book from '../../src/assets/Book.png'
 
 const ClassMangement = () => {
   return (
         <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 gap-10 overflow-x-hidden dark:bg-black">
         {/* Left Text Section */}
         <div className="md:w-1/2 dark:z-0">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#F48C06]">Class Management</h2>
-            <h3 className="text-2xl md:text-3xl font-bold text-[#2F327D] mt-2">Tools for Educators</h3>
-            <p className="text-[#696984] mt-4 text-sm md:text-base max-w-[400px]">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#F48C06] dark:text-[#eba051]">Class Management</h2>
+            <h3 className="text-2xl md:text-3xl font-bold text-[#2F327D] dark:text-[#65DAFF]  mt-2">Tools for Educators</h3>
+            <p className="text-[#696984] dark:text-[#d6cfcf] mt-4 text-sm md:text-base max-w-100">
             Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. 
             With the Gradebook, teachers can review and grade tests and quizzes in real-time.
             </p>
         </div>
 
         {/* Right Gradebook UI */}
-        <div className="relative shadow-xl rounded-2xl w-full md:w-[40vw] h-[60vh] pb-4 bg-white dark:z-0">
+        <div className="relative shadow-xl rounded-2xl w-125 mx-auto  pb-4 bg-white dark:z-0">
             <div className="absolute -top-6 right-2 h-5 w-5 rounded-full  bg-[#9FD7FF]"></div>
             <div className="absolute -top-1 -right-4 h-3 w-3 rounded-full  bg-[#9FD7FF]"></div>
+            <div className='w-15 h-15 rounded-full bg-[#f5f5f5] absolute  z-20 -top-2 -left-2 flex items-center justify-center '>
+                <div className='w-11 h-11 rounded-full bg-white backdrop-blur-2xl flex justify-center items-center  object-center '>    
+                    <img src={Star} alt="Hand" className=" rounded-full object-contain object-center absolute  w-11 h-11    " />
+                </div>
+            </div>
+            <div className='w-15 h-15 rounded-full bg-[#f5f5f5] absolute  z-20 top-7 -right-4 flex items-center justify-center '>
+                <div className='w-11 h-11 rounded-full bg-white backdrop-blur-2xl flex justify-center items-center  object-center '>    
+                    <img src={Book} alt="Hand" className=" rounded-full object-contain object-center absolute  w-8 h-8    " />
+                </div>
+            </div>
             <img src={ClassImage5} alt="waves" className='w-20 h-10 absolute bottom-3.5 -left-9'/>
-            <div className="absolute -bottom-3 -left-3 h-35 w-35 rounded-2xl   bg-[#B2C4F0] dark:hidden "></div>
+            <div className="absolute -bottom-3 -left-3 h-35 w-35 rounded-2xl -z-10  bg-[#B2C4F0] dark:hidden "></div>
 
             {/* Gradebook Header */}
-            <div className=" bg-[#54AFF0] text-white text-center w-[40vw]  text-lg font-semibold py-2 rounded-t-xl ">GradeBook</div>    
+            <div className=" bg-[#54AFF0] text-white text-center max-w-127  text-lg font-semibold py-2 rounded-t-xl ">GradeBook</div>    
             {/* Score Bars */}
-            <div className="space-y-4 mt-5 flex flex-col sm:pt-15 md:pt-10  ">
+            <div className="space-y-4 mt-5 flex flex-col sm:pt-15 max-w-127 md:pt-10  ">
             {/* Row 1 */}
                 <div className='flex justify-end items-center relative'>
                     <img src={ClassImage1} alt="User1" className='w-10 h-10 rounded-full z-10 absolute right-60'   />

@@ -18,7 +18,7 @@ const FeatureUserInterface = () => {
             <div className='w-4 h-4 rounded-full bg-[#33D9EF] flex items-center justify-center absolute left-30 -top-11 '></div>
             <div className='w-35 h-35 rounded-full bg-[#5B61EB] flex items-center justify-center absolute -right-10 -bottom-15  '></div>
             <div className='w-4 h-4 rounded-full bg-[#F56666] flex items-center justify-center absolute -bottom-10 right-25 '></div>
-            <div className='w-15 h-15 rounded-full bg-[#ebe7e7ba] absolute  z-20 top-40 right-42 flex items-center justify-center '>
+            <div className='w-15 h-15 rounded-full bg-[#f5f5f5] absolute  z-20 top-40 right-42 flex items-center justify-center '>
                 <div className='w-11 h-11 rounded-full bg-white backdrop-blur-2xl flex justify-center items-center  object-center '>    
                     <img src={Hand} alt="Hand" className=" rounded-full object-contain object-center absolute  w-8 h-8    " />
                 </div>
