@@ -12,11 +12,11 @@
             transform: translateY(-100%);
         }
     }
-    --animate-move: move 10s linear infinite;
+    --animate-scroll: scroll 10s linear infinite;
     
-    @keyframes move {
+    @keyframes scroll {
         0% { transform: translateX(0%); }
-        100% { transform: translateX(-100%); }
+        100% { transform: translateX(-50%); }
         
     }
 
