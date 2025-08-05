@@ -16,7 +16,7 @@ const FeatureUserInterface = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between max-w-full mx-auto px-6 py-20 gap-5 overflow-x-hidden dark:bg-black ">
         {/* Left Section - Images */}
-        <div className="relative w-md max-w-xl mx-auto mt-10 dark:z-0 ">
+        <div className="relative w-md max-w-100 mx-auto mt-10 dark:z-0 ">
             
             <div className='w-20 h-20 rounded-full bg-[#33EFA0] flex items-center justify-center absolute left-10 -top-10  '></div>
             <div className='w-4 h-4 rounded-full bg-[#33D9EF] flex items-center justify-center absolute left-30 -top-11 '></div>
@@ -66,20 +66,20 @@ const FeatureUserInterface = () => {
                 A<span className="text-[#F48C06] dark:text-[#eba051]"> user interface</span> designed for the classroom
             </h2>
             <div className=' flex items-center gap-4'>
-                <img src={UserInterfaceIcon1} alt="Box Icon" className='w-3 h-3 mt-4 bg-[#FBFBFB] ' />
+                <img src={UserInterfaceIcon1} alt="Box Icon" className='w-3 h-3 mt-4 bg-[#FBFBFB] dark:bg-black ' />
                 <p className="mt-4 text-[#696984] dark:text-[#d6cfcf] ">
                     Teachers don’t get lost in the grid view and have a dedicated Podium space.
                 </p>
             </div>
             <div className=' flex items-center gap-4'>
-                <img src={UserInterfaceIcon2} alt="Box Icon" className='w-3 h-3 mt-4 bg-[#FBFBFB]' />
+                <img src={UserInterfaceIcon2} alt="Box Icon" className='w-3 h-3 mt-4 bg-[#FBFBFB] dark:bg-black' />
                 <p className="mt-4 text-[#696984] dark:text-[#d6cfcf] ">
                 TA’s and presenters can be moved to the front of the class.
 
                 </p>
             </div>
             <div className=' flex items-center gap-4'>
-                <img src={UserInterfaceIcon3} alt="Box Icon" className='w-3 h-3 mt-4 bg-[#FBFBFB] ' />
+                <img src={UserInterfaceIcon3} alt="Box Icon" className='w-3 h-3 mt-4 bg-[#FBFBFB] dark:bg-black ' />
                 <p className="mt-4 text-[#696984] dark:text-[#d6cfcf] ">
                     Teachers can easily see all students and class data at one time.
                 </p>

@@ -5,10 +5,10 @@ import plane from '../../src/assets/planeImage.png'
 
 const AssignmentAndQuizComponent = () => {
   return (
-    <div className=" items-center max-w-full mx-auto px-6 py-16 gap-50 grid grid-cols-1 lg:grid-cols-2 justify-center overflow-x-hidden dark:bg-black ">
+    <div className=" items-center max-w-full mx-auto px-6 py-16 gap-20 grid grid-cols-1 lg:grid-cols-2  justify-center overflow-x-hidden dark:bg-black ">
         
         {/* Left side: Card content */}
-        <div className="relative  ml-30">
+        <div className="relative max-w-100 mx-auto  ">
 
         <div className="absolute -top-7 left-10 w-4 h-4 bg-[#F3A268] rounded-full" />
         <div className="absolute -top-4 -left-10 w-20 h-20 bg-[#687EF3] rounded-full" />

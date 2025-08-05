@@ -5,7 +5,7 @@ const Testimonial = () => {
 return (
     <section className="py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between max-w-full mx-auto overflow-x-hidden dark:bg-black">
     {/* Left Content */}
-        <div className="md:w-1/2 space-y-6">
+        <div className="max-w-130 mx-auto space-y-6">
             <div className="flex items-center space-x-4">
                 <div className="h-px w-16 bg-[#2F327D] dark:bg-[#65DAFF]" />
                     <span className="uppercase tracking-wider text-sm text-[#2F327D] dark:text-[#65DAFF]">Testimonial</span>

@@ -21,7 +21,7 @@ const ClassMangement = () => {
         </div>
 
         {/* Right Gradebook UI */}
-        <div className="relative shadow-xl rounded-2xl w-125 mx-auto  pb-4 bg-white dark:z-0">
+        <div className="relative shadow-xl rounded-2xl w-125 pb-4 bg-white dark:z-0">
             <div className="absolute -top-6 right-2 h-5 w-5 rounded-full  bg-[#9FD7FF]"></div>
             <div className="absolute -top-1 -right-4 h-3 w-3 rounded-full  bg-[#9FD7FF]"></div>
             <div className='w-15 h-15 rounded-full bg-[#f5f5f5] absolute  z-20 -top-2 -left-2 flex items-center justify-center '>
