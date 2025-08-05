@@ -1,5 +1,5 @@
 import React from 'react'
-import WhatisSkillinePhotoComponent from './whatisSkillinePhotoComponent'
+import WhatisSkillinePhotoComponent from '../../src/components/whatisSkillinePhotoComponent'
 import teacher from '../assets/teacher.png'
 import student from '../assets/student.png'
 
